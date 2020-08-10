@@ -2,21 +2,26 @@
   "name": "chat",
   "version": "0.1.0",
   "private": true,
+  "author": "徐小禹 <xxy_web@163.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
+    "vant": "^2.10.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-socket.io": "^3.0.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-pwa": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
+    "babel-plugin-import": "^1.13.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
